@@ -16,6 +16,7 @@ namespace TriangleSolverTest
         [TestFixture]
         public class TriangleSolverTests1
         {
+            // Equlilateral Triangle 
             [Test]
             public void AnalyzeTriangle_ValidEquilateral_ReturnsEquilateral()
             {
@@ -32,7 +33,7 @@ namespace TriangleSolverTest
                 // Assert
                 Assert.That(result, Is.EqualTo("Equilateral triangle"));
             }
-
+            // 
             [Test]
             public void AnalyzeTriangle_ValidIsosceles1_ReturnsIsosceles()
             {
